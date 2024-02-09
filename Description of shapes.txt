@@ -1,0 +1,63 @@
+tetrahydron
+	The tetrahedron is one kind of pyramid, which is a polyhedron with a flat polygon base and triangular faces connecting the base to a common point. In the case of a tetrahedron the base is a triangle (any of the four faces can be considered the base), so a tetrahedron is also known as a "triangular pyramid".
+21563
+
+hexagonal prism
+	Since it has 8 faces, it is an octahedron. However, the term octahedron is primarily used to refer to the regular octahedron, which has eight triangular faces. Because of the ambiguity of the term octahedron and tilarity of the various eight-sided figures, the term is rarely used without clarification.
+22654
+
+cone 
+	A cone is formed by a set of line segments, half-lines, or lines connecting a common point, the apex, to all of the points on a base that is in a plane that does not contain the apex. Depending on the author, the base may be restricted to be a circle, any one-dimensional quadratic form in the plane, any closed one-dimensional figure, or any of the above plus all the enclosed points. If the enclosed points are included in the base, the cone is a solid object; otherwise it is a two-dimensional object in three-dimensional space. In the case of a solid object, the boundary formed by these lines or partial lines is called the lateral surface; if the lateral surface is unbounded, it is a conical surface.
+12365
+
+cube
+	The cube is also a square parallelepiped, an equilateral cuboid and a right rhombohedron a 3-zonohedron. It is a regular square prism in three orientations, and a trigonal trapezohedron in four orientations.
+
+The cube is dual to the octahedron. It has cubical or octahedral symmetry.
+
+The cube is the only convex polyhedron whose faces are all squares.
+85697
+
+hexagonal pyramid
+	A right regular pyramid is one which has a regular polygon as its base and whose apex is "above" the center of the base, so that the apex, the center of the base and any other vertex form a right triangle.
+45632
+
+
+sphere
+	The sphere is a fundamental object in many fields of mathematics. Spheres and nearly-spherical shapes also appear in nature and industry. Bubbles such as soap bubbles take a spherical shape in equilibrium. The Earth is often approximated as a sphere in geography, and the celestial sphere is an important concept in astronomy. Manufactured items including pressure vessels and most curved mirrors and lenses are based on spheres. Spheres roll smoothly in any direction, so most balls used in sports and toys are spherical, as are ball bearings.
+32564
+
+icosahedron
+	There are two objects, one convex and one nonconvex, that can both be called regular icosahedra. Each has 30 edges and 20 equilateral triangle faces with five meeting at each of its twelve vertices. Both have icosahedral symmetry. The term "regular icosahedron" generally refers to the convex variety, while the nonconvex form is called a great icosahedron.
+45962
+
+cylindar
+	A cylindrical surface is a surface consisting of all the points on all the lines which are parallel to a given line and which pass through a fixed plane curve in a plane not parallel to the given line. Any line in this family of parallel lines is called an element of the cylindrical surface. From a kinematics point of view, given a plane curve, called the directrix, a cylindrical surface is that surface traced out by a line, called the generatrix, not in the plane of the directrix, moving parallel to itself and always passing through the directrix. Any particular position of the generatrix is an element of the cylindrical surface.
+63945
+
+triangular prism
+	A right triangular prism is semiregular or, more generally, a uniform polyhedron if the base faces are equilateral triangles, and the other three faces are squares. It can be seen as a truncated trigonal hosohedron, represented by Schläfli symbol t{2,3}. Alternately it can be seen as the Cartesian product of a triangle and a line segment, and represented by the product, The dual of a triangular prism is a triangular bipyramid.
+74193
+
+pentagonal prism
+	If faces are all regular, the pentagonal prism is a semiregular polyhedron, more generally, a uniform polyhedron, and the third in an infinite set of prisms formed by square sides and two regular polygon caps. It can be seen as a truncated pentagonal hosohedron, represented by Schläfli symbol t{2,5}. Alternately it can be seen as the Cartesian product of a regular pentagon and a line segment, and represented by the product {5}×{}. The dual of a pentagonal prism is a pentagonal bipyramid.
+12345
+
+dodecahedron
+	If faces are all regular, the pentagonal prism is a semiregular polyhedron, more generally, a uniform polyhedron, and the third in an infinite set of prisms formed by square sides and two regular polygon caps. It can be seen as a truncated pentagonal hosohedron, represented by Schläfli symbol t{2,5}. Alternately it can be seen as the Cartesian product of a regular pentagon and a line segment, and represented by the product {5}×{}. The dual of a pentagonal prism is a pentagonal bipyramid.
+95137
+
+octahedron
+	A regular octahedron is the dual polyhedron of a cube. It is a rectified tetrahedron. It is a square bipyramid in any of three orthogonal orientations. It is also a triangular antiprism in any of four orientations.
+45682
+
+square pyramid
+	In a right square pyramid, all the lateral edges have the same length, and the sides other than the base are congruent isosceles triangles.
+35755
+
+materialOptimization
+printName
+
+parameterA
+parameterB
+parameterC
