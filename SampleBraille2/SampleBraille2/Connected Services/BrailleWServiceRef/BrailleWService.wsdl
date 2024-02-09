@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:tns="http://tempuri.org/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="Shapes">
+        <s:complexType />
+      </s:element>
+      <s:element name="ShapesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ShapesResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="parameters">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="shape" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="parametersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="parametersResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="circumference">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="radius" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="circumferenceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="circumferenceResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="perimeter">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="shape" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="length" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="breadth" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="perimeterResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="perimeterResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="reqDotAmount">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="perimeter" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="reqDotAmountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="reqDotAmountResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ShapesSoapIn">
+    <wsdl:part name="parameters" element="tns:Shapes" />
+  </wsdl:message>
+  <wsdl:message name="ShapesSoapOut">
+    <wsdl:part name="parameters" element="tns:ShapesResponse" />
+  </wsdl:message>
+  <wsdl:message name="parametersSoapIn">
+    <wsdl:part name="parameters" element="tns:parameters" />
+  </wsdl:message>
+  <wsdl:message name="parametersSoapOut">
+    <wsdl:part name="parameters" element="tns:parametersResponse" />
+  </wsdl:message>
+  <wsdl:message name="circumferenceSoapIn">
+    <wsdl:part name="parameters" element="tns:circumference" />
+  </wsdl:message>
+  <wsdl:message name="circumferenceSoapOut">
+    <wsdl:part name="parameters" element="tns:circumferenceResponse" />
+  </wsdl:message>
+  <wsdl:message name="perimeterSoapIn">
+    <wsdl:part name="parameters" element="tns:perimeter" />
+  </wsdl:message>
+  <wsdl:message name="perimeterSoapOut">
+    <wsdl:part name="parameters" element="tns:perimeterResponse" />
+  </wsdl:message>
+  <wsdl:message name="reqDotAmountSoapIn">
+    <wsdl:part name="parameters" element="tns:reqDotAmount" />
+  </wsdl:message>
+  <wsdl:message name="reqDotAmountSoapOut">
+    <wsdl:part name="parameters" element="tns:reqDotAmountResponse" />
+  </wsdl:message>
+  <wsdl:portType name="BrailleWServiceSoap">
+    <wsdl:operation name="Shapes">
+      <wsdl:input message="tns:ShapesSoapIn" />
+      <wsdl:output message="tns:ShapesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="parameters">
+      <wsdl:input message="tns:parametersSoapIn" />
+      <wsdl:output message="tns:parametersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="circumference">
+      <wsdl:input message="tns:circumferenceSoapIn" />
+      <wsdl:output message="tns:circumferenceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="perimeter">
+      <wsdl:input message="tns:perimeterSoapIn" />
+      <wsdl:output message="tns:perimeterSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="reqDotAmount">
+      <wsdl:input message="tns:reqDotAmountSoapIn" />
+      <wsdl:output message="tns:reqDotAmountSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BrailleWServiceSoap" type="tns:BrailleWServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Shapes">
+      <soap:operation soapAction="http://tempuri.org/Shapes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="parameters">
+      <soap:operation soapAction="http://tempuri.org/parameters" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="circumference">
+      <soap:operation soapAction="http://tempuri.org/circumference" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="perimeter">
+      <soap:operation soapAction="http://tempuri.org/perimeter" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="reqDotAmount">
+      <soap:operation soapAction="http://tempuri.org/reqDotAmount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BrailleWServiceSoap12" type="tns:BrailleWServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Shapes">
+      <soap12:operation soapAction="http://tempuri.org/Shapes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="parameters">
+      <soap12:operation soapAction="http://tempuri.org/parameters" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="circumference">
+      <soap12:operation soapAction="http://tempuri.org/circumference" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="perimeter">
+      <soap12:operation soapAction="http://tempuri.org/perimeter" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="reqDotAmount">
+      <soap12:operation soapAction="http://tempuri.org/reqDotAmount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BrailleWService">
+    <wsdl:port name="BrailleWServiceSoap" binding="tns:BrailleWServiceSoap">
+      <soap:address location="https://localhost:44338/BrailleWService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="BrailleWServiceSoap12" binding="tns:BrailleWServiceSoap12">
+      <soap12:address location="https://localhost:44338/BrailleWService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

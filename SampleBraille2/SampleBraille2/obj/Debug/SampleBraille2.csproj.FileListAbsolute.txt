@@ -1,0 +1,24 @@
+D:\Documents\Higher education\National SBM\Year 2 Semester 2\SA\SA Codes\SampleBraille2\SampleBraille2\bin\Debug\SampleBraille2.exe.config
+D:\Documents\Higher education\National SBM\Year 2 Semester 2\SA\SA Codes\SampleBraille2\SampleBraille2\bin\Debug\SampleBraille2.exe
+D:\Documents\Higher education\National SBM\Year 2 Semester 2\SA\SA Codes\SampleBraille2\SampleBraille2\bin\Debug\SampleBraille2.pdb
+D:\Documents\Higher education\National SBM\Year 2 Semester 2\SA\SA Codes\SampleBraille2\SampleBraille2\obj\Debug\SampleBraille2.csproj.AssemblyReference.cache
+D:\Documents\Higher education\National SBM\Year 2 Semester 2\SA\SA Codes\SampleBraille2\SampleBraille2\obj\Debug\SampleBraille2.csproj.SuggestedBindingRedirects.cache
+D:\Documents\Higher education\National SBM\Year 2 Semester 2\SA\SA Codes\SampleBraille2\SampleBraille2\obj\Debug\SampleBraille2.BrailleShapesForm.resources
+D:\Documents\Higher education\National SBM\Year 2 Semester 2\SA\SA Codes\SampleBraille2\SampleBraille2\obj\Debug\SampleBraille2.Form1.resources
+D:\Documents\Higher education\National SBM\Year 2 Semester 2\SA\SA Codes\SampleBraille2\SampleBraille2\obj\Debug\SampleBraille2.Properties.Resources.resources
+D:\Documents\Higher education\National SBM\Year 2 Semester 2\SA\SA Codes\SampleBraille2\SampleBraille2\obj\Debug\SampleBraille2.csproj.GenerateResource.cache
+D:\Documents\Higher education\National SBM\Year 2 Semester 2\SA\SA Codes\SampleBraille2\SampleBraille2\obj\Debug\SampleBraille2.csproj.CoreCompileInputs.cache
+D:\Documents\Higher education\National SBM\Year 2 Semester 2\SA\SA Codes\SampleBraille2\SampleBraille2\obj\Debug\SampleBraille2.exe
+D:\Documents\Higher education\National SBM\Year 2 Semester 2\SA\SA Codes\SampleBraille2\SampleBraille2\obj\Debug\SampleBraille2.pdb
+D:\Documents\Higher education\National SBM\Year 2 Semester 2\SA\Grp-Assignment\SampleBraille2\SampleBraille2\bin\Debug\SampleBraille2.exe.config
+D:\Documents\Higher education\National SBM\Year 2 Semester 2\SA\Grp-Assignment\SampleBraille2\SampleBraille2\bin\Debug\SampleBraille2.exe
+D:\Documents\Higher education\National SBM\Year 2 Semester 2\SA\Grp-Assignment\SampleBraille2\SampleBraille2\bin\Debug\SampleBraille2.pdb
+D:\Documents\Higher education\National SBM\Year 2 Semester 2\SA\Grp-Assignment\SampleBraille2\SampleBraille2\obj\Debug\SampleBraille2.csproj.AssemblyReference.cache
+D:\Documents\Higher education\National SBM\Year 2 Semester 2\SA\Grp-Assignment\SampleBraille2\SampleBraille2\obj\Debug\SampleBraille2.csproj.SuggestedBindingRedirects.cache
+D:\Documents\Higher education\National SBM\Year 2 Semester 2\SA\Grp-Assignment\SampleBraille2\SampleBraille2\obj\Debug\SampleBraille2.BrailleShapesForm.resources
+D:\Documents\Higher education\National SBM\Year 2 Semester 2\SA\Grp-Assignment\SampleBraille2\SampleBraille2\obj\Debug\SampleBraille2.Form1.resources
+D:\Documents\Higher education\National SBM\Year 2 Semester 2\SA\Grp-Assignment\SampleBraille2\SampleBraille2\obj\Debug\SampleBraille2.Properties.Resources.resources
+D:\Documents\Higher education\National SBM\Year 2 Semester 2\SA\Grp-Assignment\SampleBraille2\SampleBraille2\obj\Debug\SampleBraille2.csproj.GenerateResource.cache
+D:\Documents\Higher education\National SBM\Year 2 Semester 2\SA\Grp-Assignment\SampleBraille2\SampleBraille2\obj\Debug\SampleBraille2.csproj.CoreCompileInputs.cache
+D:\Documents\Higher education\National SBM\Year 2 Semester 2\SA\Grp-Assignment\SampleBraille2\SampleBraille2\obj\Debug\SampleBraille2.exe
+D:\Documents\Higher education\National SBM\Year 2 Semester 2\SA\Grp-Assignment\SampleBraille2\SampleBraille2\obj\Debug\SampleBraille2.pdb
