@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.33026.149
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrailleWebService", "BrailleWebService\BrailleWebService.csproj", "{E65AE26F-8F17-439D-BDF9-5AF14B49F609}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleBraille2", "..\SampleBraille2\SampleBraille2\SampleBraille2.csproj", "{9A6BBE80-1275-4E50-B6EF-C25716C112D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E65AE26F-8F17-439D-BDF9-5AF14B49F609}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E65AE26F-8F17-439D-BDF9-5AF14B49F609}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E65AE26F-8F17-439D-BDF9-5AF14B49F609}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E65AE26F-8F17-439D-BDF9-5AF14B49F609}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A6BBE80-1275-4E50-B6EF-C25716C112D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A6BBE80-1275-4E50-B6EF-C25716C112D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A6BBE80-1275-4E50-B6EF-C25716C112D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A6BBE80-1275-4E50-B6EF-C25716C112D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFC4F437-C63B-4DE0-A2F5-920EA5D3179E}
+	EndGlobalSection
+EndGlobal
